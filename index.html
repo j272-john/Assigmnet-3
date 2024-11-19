@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- fixed typo here -->
+  <title>Weather Application</title> <!-- fixed typo here -->
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script> <!-- fixed URL typo here -->
+</head>
+<body>
+  <div class="weather-app">
+    <header>
+      <div>
+        <h2>Welcome to our Weather Application</h2>
+      </div>
+    </header>
+    <main>
+      <div>
+        <form action="" class="search-form" id="search-form">
+          <input type="search" name="city" id="city-name" placeholder="Enter city name" required class="form-input"/>
+          <button type="submit" class="form-button">Search</button> <!-- fixed button tag -->
+        </form>
+      </div>
+      <div class="weather-data">
+        <h3>Paris</h3>
+        <!-- <h3>18 <strong>˚C</strong></h3> -->
+        <div class="weather-app-temperature-container">
+          <div class="" id="weather-app-icon">
+            <img src="weather.jpeg" alt="weather.jpeg" 
+class="weather-app-icon"> <!-- fixed URL typo -->
+          </div>
+          <div class="weather-app-temperature" id="current-temperature-value">12</div>
+ <!-- fixed id typo -->
+          <div class="weather-app-unit">°C</div>
+        </div>
+      </div>
+      <div>
+        <p>
+          <span id="current-me">Tuesday 14:40, </span> <!-- fixed id typo -->
+          <span id="weather-description">Scattered clouds</span> <!-- fixed id typo -->
+          <br/>
+          Humidity: <span id="humidity" class="humidity">66</span> <!-- fixed id typo -->
+          , Wind Speed: <span id="windspeed">4.3</span>
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div>
+        Coded by <a href="https://github.com/j272-john" target="_blank">John Kariithi</a>
+and is on <a href="https://github.com/j272-john/assignment-3-Weather-API" target="_blank">GitHub</a>
+and hosted by <a href="https://rennishweatherapp.netlify.app/" target="_blank">Netlify</a>.
+<br>
+        
